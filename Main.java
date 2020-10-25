@@ -14,11 +14,6 @@ import java.util.Arrays;
 	                 int result = calc(num1,num2,operation);
 	                 int resultRom = test(result);
 	             }
-	             else if (!scanner.hasNextInt(num1) && !scanner.hasNextInt(num2)) {
-	                 System. exit(0);
-	                 System.out.println("Вы допустили ошибку при вводе чисел.Допускаются только римские и арабские, в диапозоне от 1 до 10");
-	                 System. exit(0);
-	             }
 	             else {
 	                 System.out.println("Допускаются только в диапозоне от 1 до 10");
 	                 System. exit(0);
